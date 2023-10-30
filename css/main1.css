@@ -5,6 +5,10 @@ ul {
   padding: 0;
 }
 
+span{
+  transform : rotate(0.04deg); 
+}
+
 li {
   list-style-position: inside;
 }
