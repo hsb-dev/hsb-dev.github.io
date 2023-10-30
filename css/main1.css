@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-position: inside;
+}
+
+span {
+  display: inline-block;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16rem;
+  padding-right: 16rem;
+  background: #ffffff90;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  transition: top 0.3s ease-in-out;
+}
+
+.nav-up {
+  top: -4rem;
+}
+
+footer {
+  height: 15rem;
+  background: #000;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16rem;
+  padding-right: 16rem;
+  display: block;
+}
+
+.main {
+  margin-top: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16rem;
+  padding-right: 16rem;
+
+  display: block;
+}
+
+/* buttons */
+
+.button-resume-detail {
+  width: 100%;
+  height: 4rem;
+  color: white;
+  background: #000;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  border: 0px;
+}
+
+/* main */
+
+.logo {
+  width: 60%;
+  margin: auto 0;
+}
+
+.logo > span {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  width: 40%;
+  margin: auto 0;
+  justify-content: space-between;
+}
+
+.menu > span {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.content-area {
+  display: flex;
+  width: 100%;
+}
+
+.content-area-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  overflow: visible;
+  z-index: 1;
+  justify-content: space-between;
+}
+
+.content-area-left > span:nth-child(1) {
+  font-size: 8rem;
+  font-weight: 600;
+  letter-spacing: -0.4rem;
+  white-space: nowrap;
+}
+
+.content-area-left_intro {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  margin-top: 24rem;
+}
+
+.content-area-left_input {
+  width: 22rem;
+  height: 2.25rem;
+  border: 0px;
+  border-bottom: 2px black solid;
+}
+
+.content-area-left_input > input {
+  width: 90%;
+  height: 2.25rem;
+  border: 0px;
+  background: #ffffff00;
+}
+
+.content-area-right {
+  width: 50%;
+  padding-left: 2rem;
+}
+
+.content-area-right > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* product */
+
+.product-area {
+  width: 100%;
+  margin-top: 12rem;
+}
+
+.product-area > span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.product-area-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-area-container_ctn {
+  width: 24%;
+}
+
+.product-img {
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+  margin-bottom: 0.6rem;
+}
+
+.product-area-container_ctn span {
+  line-height: 1.5rem;
+}
+
+.product-area-container_ctn > span:nth-last-child(1) {
+  font-weight: 600;
+}
+
+.product-area-container_ctn > span:nth-child(2) {
+  color: #00000060;
+}
+
+/*business*/
+
+.business-area {
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.business-area > span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.business-area-container span {
+  line-height: 1.5rem;
+}
+
+.business-area-container {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 24px;
+}
+
+.business-area-content1 {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+
+.business-area-content1 > img {
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+}
+
+.business-area-content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.business-area-container_ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.business-area-container_ctn > span:nth-child(2) {
+  margin-top: 0.5rem;
+  color: #00000060;
+}
+
+.business-area-container_ctn > span:nth-child(3) {
+  font-weight: 600;
+}
+
+/*about me*/
+
+.about-area {
+  width: 100%;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-area-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-area-content > img {
+  width: 60%;
+  height: 600px;
+  object-fit: cover;
+  margin-top: 3rem;
+}
+
+.about-area > span:nth-child(1) {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.about-area > span:nth-child(2) {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.about-introduce {
+  margin-top: 3rem;
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro-text {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.career {
+  height: 80%;
+}
